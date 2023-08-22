@@ -6,11 +6,13 @@ import sys
 def fizzbuzz(n):
     """
     The FizzBuzz function outputs a sequence of numbers from 1 to n,
-    with each number separated by a space. However, there are certain conditions:
+    with each number separated by a space.
+    However, there are certain conditions:
 
     If a number is a multiple of three, it is replaced with the word "Fizz".
     If a number is a multiple of five, it is replaced with the word "Buzz".
-    If a number is a multiple of both three and five, it is replaced with the phrase "FizzBuzz".
+    If a number is a multiple of both three and five,
+    it is replaced with the phrase "FizzBuzz".
     """
     if n < 1:
         return
